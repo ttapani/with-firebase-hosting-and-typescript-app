@@ -16,6 +16,9 @@
     "copy-deps": "cpx \"*{package.json,package-lock.json,yarn.lock}\" \"dist/functions\"",
     "install-deps": "cd \"dist/functions\" && npm i"
   },
+  "engines": {
+    "node": "8"
+  },
   "dependencies": {
     "@zeit/next-typescript": "1.1.1",
     "firebase-admin": "6.1.0",
